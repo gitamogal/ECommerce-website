@@ -1,0 +1,22 @@
+.about{
+    height: auto;
+    width: 100%;
+}
+ .container{
+    display: flex;
+    margin-top: 75px;
+ }
+ .container-about-para{
+    /* width: px; */
+    padding: 34px 139px;
+    line-height: 24px;
+ }
+ .container1{
+   display: flex;
+   margin-top: 75px;
+}
+ .container-ourstory-para{
+   /* width: 400px; */
+   padding: 34px 139px;
+   line-height: 24px;
+ }

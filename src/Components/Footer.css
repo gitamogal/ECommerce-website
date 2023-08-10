@@ -1,0 +1,50 @@
+.footer p{
+    /* text-align: center; */
+    width: 200px;
+} 
+.footer-main{
+    justify-content: space-between;
+    display: flex;
+    background-color: #808080b8;
+    color: black;
+    padding: 35px;
+}
+.footer h2{
+    margin-bottom: 10px;
+    text-align: center;
+}
+.footer-para{
+    text-align: center;
+    line-height: 10px;
+}
+.footerend p{
+    justify-content: center ;
+}
+.footer-para p a{
+    list-style: none;
+    text-decoration: none;
+     color: black; 
+}
+.footer-para link{
+    color:black;
+}
+.ficon{
+    padding-left: 10px;
+    
+}
+.footerend{
+    text-align: center;
+}
+.footer h2{
+    text-align: start;
+}
+.footer-para{
+    text-align: start;
+}
+.FooterList p{
+    /* text-decoration: none; */
+    color: black;
+}
+.style{
+    text-decoration: none;
+}

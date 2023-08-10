@@ -1,0 +1,62 @@
+.Brands{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    text-align: center;
+    margin: 31px 55px;
+     gap: 1rem;
+}
+.Brand-Item{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; 
+
+}
+.Brand-Image img{
+    /* height: 204px;
+    width: 192px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    /* margin: 20px auto; */
+    width: 250px;
+    height: 250px;
+    background: white;
+    /* border-radius: 75px; */
+    /* font-family: 'Montserrat', sans-serif; */
+    /* font-size: 20px; */
+    font-weight: lighter;
+    /* letter-spacing: 2px; */
+    transition: 1s box-shadow;
+}
+.Brand-Image img:hover{
+    box-shadow: 0 5px 35px 0px rgba(0,0,0,.1);
+}
+.Brand-Image img:hover::before, .Brand-Image img:hover::after {
+display: block;
+content: '';
+position: absolute;
+width: 250px;
+height: 250px;
+background: #FDA8CF;
+border-radius: 75px;
+z-index: -1;
+animation: 1s clockwise infinite;
+}
+.BrandInfo{
+    padding: 10px 20px;
+}
+.BrandTitle{
+    color: rgb(180, 182, 184);
+}
+.BrandSubTitle{
+    color: rgb(76, 75, 75);
+    margin-bottom: 30px;
+}
+.Brandprice{
+    margin-bottom: 22px;
+color:green;
+}
+.Addtocard{
+    margin-bottom: 22px;
+
+}

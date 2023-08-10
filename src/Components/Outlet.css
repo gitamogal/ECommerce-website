@@ -1,0 +1,52 @@
+/* .TD h7{
+   justify-content: center;
+} */
+h7{
+    justify-content: center;
+}
+.container3{
+    display: flex;
+    margin-left: 50px;
+}
+.menu1{
+    text-align: center;
+    margin-left: 30px;
+}
+.menu1 h6:hover{
+    justify-content: center;
+    font-weight: bold;
+}
+.BrandProps{
+    display: flex;
+    overflow-y: hidden;
+}
+.BrandProps::-webkit-scrollbar{
+    display: none;
+}
+.Sunshine{
+    margin-left: 20px;
+}
+.Store{
+    margin-left: 30px;
+}
+.heading{
+    text-align: center;
+    margin-top: 50px;
+}
+.headerpic{
+    width: 100%;
+    margin-top: 25px;
+}
+.Store2{
+    overflow-y: hidden;
+    display: flex;
+}
+.Store2::-webkit-scrollbar{
+    display: none;
+}
+.headingSlider{
+overflow-y: hidden;
+}
+.headingSlider::-webkit-scrollbar{
+    display: none;
+}
